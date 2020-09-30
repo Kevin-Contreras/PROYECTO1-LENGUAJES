@@ -4,8 +4,7 @@ import re
 arreglo2=[];
 arreglo = []
 
-print("INGRESE LOS NOMBRES DE LOS ARCHIVOS O EL NOMBRE DEL ARCHIVO")
-archivos = input()
+
 def automata (comandos):
   """ -------------------COMANDO 11 SCRIPT----------------------------------- """
   numero=0;
@@ -39,6 +38,6 @@ def automata (comandos):
     numero3=numero3+1;
     numero4=numero4+1;
  
-  print(arreglo)
+  return arreglo
   """ ------------------------COMANDO 11 SCRIPT------------------ """
-automata(archivos);
+
